@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 22fcf32770f9cc447b16c40d896f2356
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cardText: {instanceID: 0}
+  - cardImage: {instanceID: 0}
+  - fireSprite: {fileID: 21300000, guid: 176df7137d2b0874baa5829b7e00567a, type: 3}
+  - waterSprite: {fileID: 21300000, guid: 47deba889b2ded4418d158e9f00659d7, type: 3}
+  - snowSprite: {fileID: 21300000, guid: f8f5a69157daf8949b4d6fa3150567ef, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

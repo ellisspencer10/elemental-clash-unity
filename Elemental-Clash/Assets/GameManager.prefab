@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2070040657765345742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2070040657765345740}
+  - component: {fileID: 2070040657765345743}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2070040657765345740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070040657765345742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 222.03008, y: 132.88799, z: 1.4650533}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2070040657765345743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070040657765345742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 349dc5a173070fd4487a37870e7e1434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerDeck: {fileID: 6815058191950998161, guid: d0edc6513e48f744c860eb374ecabbda, type: 3}
+  opponentDeck: {fileID: 6579614228606367511, guid: 2f62781ebdba50f429dc84c908124ae0, type: 3}
+  timerText: {fileID: 0}
+  resultText: {fileID: 506793984603803730, guid: d9bb2e619a61aab4db9964622a1e04ab, type: 3}
+  playerScoreText: {fileID: 0}
+  opponentScoreText: {fileID: 0}
+  middleCardPlayerTransform: {fileID: 2497500305191236051, guid: 7580b9b343d479944b065608d7e74888, type: 3}
+  middleCardOpponentTransform: {fileID: 2497500305191236051, guid: 7580b9b343d479944b065608d7e74888, type: 3}
